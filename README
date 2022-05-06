@@ -1,0 +1,9 @@
+To run: 
+
+Load from /etc:
+
+secret_key
+db_secret_user
+db_sercet_pass
+
+Currently runs only on django runserver.
