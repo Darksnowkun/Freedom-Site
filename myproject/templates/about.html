@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>About Me</h1>
+
+<p>{{ object.username }}</p>
+<p>Today is: {{now|date}}</p>
+
+<p>
+    {{ object.about_content }}
+</p>
+
+{% endblock content %}
