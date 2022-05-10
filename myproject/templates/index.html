@@ -5,6 +5,11 @@
     <p>
         Welcome to the landing page for my personal projects. 
     </p>
+    {% load static %}
+    <object data={% static 'resume.pdf' %} type="application/pdf" width="100%" height="800px">
+        <p>No PDF browser plugin available.</p>
+        <p><a href="resume.pdf">Click here to download the PDF</a></p>
+    </object> 
     <button type="submit" class="btn btn-primary">
         Submit
     </button>

@@ -7,3 +7,5 @@ db_secret_user
 db_sercet_pass
 
 Currently runs only on django runserver.
+
+The database should be called mypostgres.
